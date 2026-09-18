@@ -354,7 +354,7 @@ header.scrolled {
 
 .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -931,6 +931,18 @@ footer {
         justify-content: center;
         transition: var(--transition-smooth);
     }
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    .logo {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}
 
     .nav-links.active {
         right: 0;
