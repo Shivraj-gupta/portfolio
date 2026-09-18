@@ -9,7 +9,6 @@
 /* --- AESTHETIC PRELOADER --- */
 body.loading {
     overflow: hidden;
-    /* Prevent scroll during load */
 }
 
 .preloader {
